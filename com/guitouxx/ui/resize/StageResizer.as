@@ -1,6 +1,6 @@
 ﻿/**
  * As3Toolbox com.guitouxx.ui.resize
- * StageResizer 1.0
+ * StageResizer 1.1
  * Last update : 09/09/10
  * 
  * 
@@ -162,7 +162,7 @@ package com.guitouxx.ui.resize
 		}
 		
 		/**
-		 * Remove a member to the StageResizer
+		 * Remove a member from the StageResizer
 		 * @param	target	DisplayObject instance or Member Name
 		*/
 		public static function removeMember(target : *) : void
@@ -172,6 +172,17 @@ package com.guitouxx.ui.resize
 			if(pos == -1) throw new Error("This member is not registered with StageResizer");
 			
 			_members.splice(pos, 1);
+		}
+		
+		/**
+		 * Remove all members from the StageResizer
+		*/
+		public static function removeAll() : void
+		{
+			var item : Object;
+			for each(item in _members) removeMember(item.dp.name);
+			
+			_members = [];
 		}
 		
 		/**
