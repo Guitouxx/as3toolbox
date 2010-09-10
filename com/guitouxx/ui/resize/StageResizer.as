@@ -1,6 +1,6 @@
 ﻿/**
  * As3Toolbox com.guitouxx.ui.resize
- * StageResizer 1.1
+ * StageResizer 1.2
  * Last update : 09/09/10
  * 
  * 
@@ -170,8 +170,13 @@ package com.guitouxx.ui.resize
 			var item : Object;
 			var pos : int = _getMemberPosition((target is String) ? target : target.name);
 			if(pos == -1) throw new Error("This member is not registered with StageResizer");
-			
-			_members.splice(pos, 1);
+
+			//Check if we have more than one entry for a specific displayobject
+			while(pos != -1)
+			{
+				pos = _getMemberPosition((target is String) ? target : target.name);
+				if(pos >=0) _members.splice(pos, 1);
+			}
 		}
 		
 		/**
