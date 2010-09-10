@@ -43,14 +43,14 @@ package com.guitouxx.utils
 		// Constants
 		//-------------------------------------------------------------------------------------
 		
-		public static			const 	ENGLISH			: String			= "en";
-		public static			const 	FRENCH			: String			= "fr";
+		public static const ENGLISH : String = "en";
+		public static const FRENCH : String = "fr";
 		
 		//-------------------------------------------------------------------------------------
 		// Vars
 		//-------------------------------------------------------------------------------------
 		
-		private static			var 	miliPerDay		: int			= 86400000;
+		private static var miliPerDay : int = 86400000;
 		
 		//-------------------------------------------------------------------------------------
 		// Public Methods

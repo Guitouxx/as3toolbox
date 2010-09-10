@@ -47,9 +47,9 @@ package com.guitouxx.ui
 		// Vars
 		//-------------------------------------------------------------------------------------
 		
-		private	var	_container					: *;
-		private	var	_contextMenu			: ContextMenu;
-		private var	_callbacks				: Object				= {};
+		private var _container : *;
+		private var _contextMenu : ContextMenu;
+		private var _callbacks : Object = {};
 		
 		//-------------------------------------------------------------------------------------
 		// Getter / Setter 

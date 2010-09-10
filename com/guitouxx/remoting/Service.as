@@ -50,11 +50,11 @@ package com.guitouxx.remoting
 		// Vars
 		//-------------------------------------------------------------------------------------
 		
-		public static 	var  	GATEWAY				: String;
-		public static 	var  	PHP_CLASS			: String;
+		public static 	var GATEWAY : String;
+		public static 	var PHP_CLASS : String;
 		
-		private 		var 	_dispatcher 		: EventDispatcher	= new EventDispatcher();
-		private 		var 	_remoteConnector 	: RemoteConnector;
+		private var _dispatcher : EventDispatcher	= new EventDispatcher();
+		private var _remoteConnector : RemoteConnector;
 		
 		//-------------------------------------------------------------------------------------
 		// Public Methods

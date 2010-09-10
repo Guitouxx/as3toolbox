@@ -44,19 +44,19 @@ package com.guitouxx.ui.resize
 		// Constants
 		//-------------------------------------------------------------------------------------
 		
-		public 	static const	X			: String		= "x";
-		public 	static const	Y			: String		= "y";
-		public 	static const	WIDTH		: String		= "width";
-		public 	static const	HEIGHT		: String		= "height";
+		public static const X : String = "x";
+		public static const Y : String = "y";
+		public static const WIDTH : String = "width";
+		public static const HEIGHT : String = "height";
 		
 		//-------------------------------------------------------------------------------------
 		// Vars
 		//-------------------------------------------------------------------------------------
 		
-		public 	var reference 				: DisplayObject;
-		public 	var property				: String;
-		public	var resizeValue				: Number;
-		public	var	mode					: String;
+		public var reference : DisplayObject;
+		public var property : String;
+		public var resizeValue : Number;
+		public var mode : String;
 		
 		//-------------------------------------------------------------------------------------
 		// Public Methods

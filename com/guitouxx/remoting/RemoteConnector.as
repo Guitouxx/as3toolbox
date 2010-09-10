@@ -49,11 +49,11 @@ package com.guitouxx.remoting
 		// Vars
 		//-------------------------------------------------------------------------------------
 		
-		private	var		_url			:	String;
-		private	var		_gate			:	NetConnection;
-		private	var		_class			:	String;
-		private	var		_callback		:	Function;
-		private	var		_responder		:	Responder;
+		private	var _url : String;
+		private	var _gate : NetConnection;
+		private	var _class : String;
+		private	var _callback : Function;
+		private	var _responder : Responder;
 		
 		//-------------------------------------------------------------------------------------
 		// Public Methods

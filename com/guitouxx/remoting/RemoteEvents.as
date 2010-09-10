@@ -44,15 +44,15 @@ package com.guitouxx.remoting
 		// Constants
 		//-------------------------------------------------------------------------------------
 
-		public static	const	COMPLETE		: 	String			= "onComplete";
-		public static	const	ERROR			: 	String			= "onFault";
+		public static const COMPLETE : String = "onComplete";
+		public static const ERROR : String = "onFault";
 		
 		//-------------------------------------------------------------------------------------
 		// Vars
 		//-------------------------------------------------------------------------------------
 
-		public			var		rows			: Object;
-		public			var		error			: String;
+		public var rows : Object;
+		public var error : String;
 		
 		//-------------------------------------------------------------------------------------
 		// Public Methods

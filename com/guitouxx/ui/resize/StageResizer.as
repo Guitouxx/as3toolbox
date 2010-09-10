@@ -47,22 +47,22 @@ package com.guitouxx.ui.resize
 		// Constants
 		//-------------------------------------------------------------------------------------
 	
-		private	static const	STATIC_MEMBER			: String		= "staticMember";
-		private	static const	DYNAMIC_MEMBER			: String		= "dynamicMember";
-		public 	static const	PERCENT					: String		= "percent";
-		public 	static const	PIXEL					: String		= "pixel";
+		private static const STATIC_MEMBER : String = "staticMember";
+		private static const DYNAMIC_MEMBER : String = "dynamicMember";
+		public static const PERCENT : String = "percent";
+		public static const PIXEL : String = "pixel";
 	
 		//-------------------------------------------------------------------------------------
 		// Vars
 		//-------------------------------------------------------------------------------------
 		
-		private	static	var	_members					: Array			= [];
-		private	static	var	_widthMin					: Number		= 500;
-		private	static	var	_heightMin					: Number		= 500;
-		private	static	var	_useMinimumSize				: Boolean		= false;
-		private	static	var	_updateOnAdding				: Boolean		= false;
-		private	static	var	_roundPositions				: Boolean		= false;
-		private	static	var	_stage						: Stage;
+		private static var _members : Array = [];
+		private static var _widthMin : Number = 500;
+		private static var _heightMin : Number = 500;
+		private static var _useMinimumSize : Boolean = false;
+		private static var _updateOnAdding : Boolean = false;
+		private static var _roundPositions : Boolean = false;
+		private static var _stage : Stage;
 		
 		//-------------------------------------------------------------------------------------
 		// Getter / Setter
