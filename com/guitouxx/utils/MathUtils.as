@@ -48,7 +48,7 @@ package com.guitouxx.utils
 		*/
 		public static function randomInt( min : Number, max : Number) : Number
 		{
-			return Math.round((max-min)*Math.random()+min);
+			return int((max-min)*Math.random()+min+.5);
 		}
 		
 		/**
