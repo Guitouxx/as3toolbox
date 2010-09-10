@@ -4,6 +4,7 @@ Description: AS3Toolbox is a package of Various as3 class that I use on flash/fl
 INDEX:
 [.]com.guitouxx.remoting.*
 [.]com.guitouxx.utils.*
+[.]com.guitouxx.ui.*
 
 LICENCE:
 All files are registered with the MIT license.
