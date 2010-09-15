@@ -100,7 +100,7 @@ package com.guitouxx.ui
 		*/
 		public function removeMenuItem(caption : String) : void
 		{
-			var position : int = _getItemPosition(caption);	
+			var position : int = getItemPosition(caption);	
 			if (position == -1) throw new Error("This item doesn't exist");
 			
 			var menuItem : ContextMenuItem = items[position] as ContextMenuItem;
@@ -132,7 +132,7 @@ package com.guitouxx.ui
 		*/
 		public function enableItem(caption : String, enable : Boolean, visible : Boolean = true) : void
 		{
-			var position : int = _getItemPosition(caption);
+			var position : int = getItemPosition(caption);
 			if (position == -1) throw new Error("This item doesn't exist");
 			
 			var menuItem : ContextMenuItem = items[position] as ContextMenuItem;
@@ -150,17 +150,13 @@ package com.guitouxx.ui
 			for each(menuItem in items) menuItem.enabled = enable;
 		}
 		
-		//-------------------------------------------------------------------------------------
-		// Private Methods
-		//-------------------------------------------------------------------------------------
-		
 		/**
 		 * Return the item position
 		 * @param	caption	Item name
 		 * @param	array	MenuItems Array
 		 * @return	int instance
 		*/
-		private function _getItemPosition(caption : String) : int
+		public function getItemPosition(caption : String) : int
 		{
 			var i : int;
 			var n : int = items.length - 1;
