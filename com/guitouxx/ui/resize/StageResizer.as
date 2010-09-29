@@ -162,6 +162,16 @@ package com.guitouxx.ui.resize
 		}
 		
 		/**
+		 * Check if a specific member is registered with the StageResizer
+		 * @param	target	DisplayObject instance or Member name
+		 * @return	Boolean instance
+		 */
+		public static function isMemberRegistered(target : *) : Boolean
+		{
+			return _getMemberPosition((target is String) ? target : target.name) != -1;
+		}
+		
+		/**
 		 * Remove a member from the StageResizer
 		 * @param	target	DisplayObject instance or Member Name
 		*/
